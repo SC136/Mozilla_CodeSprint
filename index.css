@@ -23,6 +23,16 @@
     flex-direction: row;
 }
 
+.main a {
+    background-color: orange;
+    border: 1px orange solid;
+    border-radius: 50px;
+    transition: all 0.1s ease-out;
+    color: blue;
+    padding: 15px;
+    margin: 15px;
+}
+
 .reg {
     background-color: orange;
     border: 1px orange solid;
@@ -84,8 +94,16 @@ table {
     display: flex;
     flex-direction: column;
     border-bottom: 20px;
+    background-color: antiquewhite;
 }
 .main-footer{
     display: flex;
     justify-content: center;
+}
+.foot{
+    font-weight: 500;
+}
+.foot a:link, a:active{
+    text-transform: none;
+    
 }
