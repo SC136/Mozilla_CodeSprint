@@ -47,12 +47,12 @@
 
 .main a:hover {
     transform: translateY(-5px);
-    box-shadow: 2px 2px 2px 2px black;
+    box-shadow: 2px 2px 15px 2px black;
 }
 
 .reg:hover {
     transform: translateY(-5px);
-    box-shadow: 2px 2px 2px 2px black;
+    box-shadow: 2px 2px 15px 2px black;
 }
 
 .speaker-section {
