@@ -6,12 +6,12 @@
 .main {
     display: flex;
     align-items: center;
-    background-color: rgb(209, 134, 134);
+    background-color: lightblue;
     flex-direction: column;
 }
 
 .main h1 {
-    color: green;
+    color: rgb(219, 134, 134);
     margin-top: 25px;
 }
 
@@ -66,6 +66,10 @@
     align-content: center;
 }
 
+.speaker-section h2 {
+    margin-top: 25px;
+}
+
 .spkrs {
     display: flex;
     flex-wrap: wrap;
@@ -73,7 +77,7 @@
 }
 
 .spkr {
-    background-color: grey;
+    background-color:  antiquewhite;
     margin: 20px;
     border-radius: 50px;
     box-shadow: 0 0 10px 2px black;
@@ -96,7 +100,7 @@
     background-color: antiquewhite;
 }
 
-.schedule-section h2 {
+.schedule-section h3 {
     margin-top: 25px;
 }
 
@@ -111,6 +115,7 @@ table {
     align-items: center;
     align-content: center;
     background-color: lightblue;
+    padding: 80px;
 }
 
 .footer {
@@ -130,6 +135,6 @@ table {
 }
 .foot a:link, a:active{
     text-transform: none;
-    color: burlywood;
-    background-color: black;
+    color:  black;
+    background-color: rgb(219, 134, 134) ;
 }
