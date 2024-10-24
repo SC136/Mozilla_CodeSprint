@@ -13,6 +13,7 @@
 .main h1 {
     color: rgb(219, 134, 134);
     margin-top: 25px;
+    text-shadow: 1px 1px 1px black;
 }
 
 .main p {
@@ -61,7 +62,7 @@
 .speaker-section {
     display: flex;
     flex-direction: column;
-    background-color: rgb(219, 134, 134);
+    background-color: #db8686;
     align-items: center;
     align-content: center;
 }
@@ -87,6 +88,7 @@
 .spkr img {
     border-radius: 50px;
     width: 200px;
+    height: 200px;
 }
 .text{
     text-align: center;
@@ -98,6 +100,7 @@
     align-items: center;
     flex-direction: column;
     background-color: antiquewhite;
+    padding-inline: 80px;
 }
 
 .schedule-section h3 {
@@ -119,7 +122,8 @@ table {
 }
 
 .second-footer {
-    margin: 15px;
+    padding: 15px;
+    /* background-color: #db8686; */
 }
 
 .footer {
@@ -127,17 +131,20 @@ table {
     flex-direction: column;
     border-bottom: 20px;
     background-color: antiquewhite;
+    color: black;
 }
 table{
     border: 2px solid black;
+    
 }
 .th{
     padding: 12px 20px;
-   
+}
 .main-footer{
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    background-color: #db8686;
 }
 .foot{
     font-weight: 500;
@@ -147,4 +154,8 @@ table{
     text-transform: none;
     color:  black;
     color: #db8686;
+}
+
+.footer a {
+    color:  black;
 }
