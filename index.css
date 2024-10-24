@@ -1,0 +1,19 @@
+.main {
+    display: flex;
+    align-items: center;
+    
+}
+
+.main h1 {
+    font-size: large;
+}
+
+.speaker-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.spkr {
+    background-color: grey;
+}
