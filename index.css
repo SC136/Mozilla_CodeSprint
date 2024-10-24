@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+/* this is the main body */
 .main {
     display: flex;
     align-items: center;
@@ -12,7 +13,7 @@
 
 .main h1 {
     color: rgb(219, 134, 134);
-    margin-top: 25px;
+    margin-top: 50px;
     text-shadow: 1px 1px 1px black;
 }
 
@@ -20,13 +21,15 @@
     margin: 15px;
 }
 
+/* this is the button */
 .btns {
     display: flex;
     flex-direction: row;
-    cursor:pointer;
-    margin-bottom: 25px;
+    cursor: pointer;
+    margin-bottom: 50px;
 }
 
+/* here we are editing the links */
 .main a {
     background-color: orange;
     border: 1px orange solid;
@@ -48,7 +51,7 @@
     margin: 15px;
     text-decoration: none;
 }
-
+/* further we are trying some animations  */
 .main a:hover {
     transform: translateY(-5px);
     box-shadow: 2px 2px 15px 2px black;
@@ -68,17 +71,18 @@
 }
 
 .speaker-section h2 {
-    margin-top: 25px;
+    margin-top: 50px;
 }
 
 .spkrs {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    margin-bottom: 50px;
 }
 
 .spkr {
-    background-color:  antiquewhite;
+    background-color: antiquewhite;
     margin: 20px;
     border-radius: 50px;
     box-shadow: 0 0 10px 2px black;
@@ -90,10 +94,12 @@
     width: 200px;
     height: 200px;
 }
-.text{
+
+.text {
     text-align: center;
     font-weight: 600;
 }
+
 .schedule-section {
     display: flex;
     justify-content: center;
@@ -123,7 +129,7 @@ table {
 
 .second-footer {
     padding: 15px;
-    /* background-color: #db8686; */
+    background-color: antiquewhite;
 }
 
 .footer {
@@ -133,29 +139,41 @@ table {
     background-color: antiquewhite;
     color: black;
 }
-table{
+
+table {
     border: 2px solid black;
-    
+    margin-bottom: 50px;
+
 }
-.th{
+
+h3 {
+    font-size: 40px;
+}
+
+.th {
     padding: 12px 20px;
+    font-size: 22px;
 }
-.main-footer{
+
+.main-footer {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 20px;
     background-color: #db8686;
 }
-.foot{
+
+.foot {
     font-weight: 500;
-    margin:25px;
+    margin: 25px;
 }
-.foot a:link, a:active{
+
+.foot a:link,
+a:active {
     text-transform: none;
-    color:  black;
+    color: black;
     color: #db8686;
 }
 
 .footer a {
-    color:  black;
+    color: black;
 }
