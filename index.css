@@ -42,9 +42,14 @@
 
 .speaker-section {
     display: flex;
+    flex-direction: column;
+    background-color: rgb(219, 134, 134);
+}
+
+.spkrs {
+    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    background-color: rgb(219, 134, 134);
 }
 
 .spkr {
@@ -78,6 +83,11 @@ table {
 }
 
 .footer {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 20px;
+}
+.main-footer{
     display: flex;
     justify-content: center;
 }
