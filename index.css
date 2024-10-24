@@ -20,7 +20,7 @@
     background-color: orange;
     border: 1px orange solid;
     border-radius: 50px;
-    transition: all 0.5s ease-out;
+    transition: all 0.1s ease-out;
     color: blue;
     padding: 15px;
     margin: 15px;
@@ -43,8 +43,9 @@
     margin: 20px;
     border-radius: 50px;
     box-shadow: 2px 2px 2px 2px black;
+    padding: 25px;
 }
 
 table {
-    border: 2px sloid lightblue;
+    border: 2px lightblue solid;
 }
