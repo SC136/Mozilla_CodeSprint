@@ -76,3 +76,8 @@ table {
     align-items: center;
     align-content: center;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
