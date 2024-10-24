@@ -6,7 +6,7 @@
 .main {
     display: flex;
     align-items: center;
-    background-color: #684619;
+    background-color: rgb(209, 134, 134);
     flex-direction: column;
 }
 
@@ -110,6 +110,7 @@ table {
     flex-direction: column;
     align-items: center;
     align-content: center;
+    background-color: lightblue;
 }
 
 .footer {
