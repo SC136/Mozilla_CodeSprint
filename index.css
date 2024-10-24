@@ -83,13 +83,14 @@
 }
 .text{
     text-align: center;
-    font-weight: ;
+    font-weight: 600;
 }
 .schedule-section {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: antiquewhite;
 }
 
 table {
@@ -120,5 +121,4 @@ table {
     text-transform: none;
     color: burlywood;
     background-color: black;
-
 }
