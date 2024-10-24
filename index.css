@@ -60,6 +60,12 @@
     width: 200px;
 }
 
+.schedule-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 table {
     border: 2px lightblue solid;
 }
