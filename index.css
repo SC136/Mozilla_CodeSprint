@@ -61,7 +61,7 @@
     transform: translateY(-5px);
     box-shadow: 2px 2px 15px 2px black;
 }
-
+/* this is the speaker section */
 .speaker-section {
     display: flex;
     flex-direction: column;
@@ -99,7 +99,7 @@
     text-align: center;
     font-weight: 600;
 }
-
+/* this is the schedule section */
 .schedule-section {
     display: flex;
     justify-content: center;
@@ -131,7 +131,8 @@ table {
     padding: 15px;
     background-color: antiquewhite;
 }
-
+/* this is the footer section */ 
+/* we have added various links in it which can be used in real time websites */
 .footer {
     display: flex;
     flex-direction: column;
