@@ -4,6 +4,7 @@
 }
 
 /* this is the main body */
+
 .main {
     display: flex;
     align-items: center;
@@ -22,6 +23,7 @@
 }
 
 /* this is the button */
+
 .btns {
     display: flex;
     flex-direction: row;
@@ -30,6 +32,7 @@
 }
 
 /* here we are editing the links */
+
 .main a {
     background-color: orange;
     border: 1px orange solid;
@@ -61,7 +64,9 @@
     transform: translateY(-5px);
     box-shadow: 2px 2px 15px 2px black;
 }
+
 /* this is the speaker section */
+
 .speaker-section {
     display: flex;
     flex-direction: column;
@@ -88,7 +93,9 @@
     box-shadow: 0 0 10px 2px black;
     padding: 25px;
 }
+
 /* this is our speakers image */
+
 .spkr img {
     border-radius: 50px;
     width: 200px;
@@ -99,7 +106,9 @@
     text-align: center;
     font-weight: 600;
 }
+
 /* this is the schedule section */
+
 .schedule-section {
     display: flex;
     justify-content: center;
@@ -113,10 +122,12 @@
     margin-top: 25px;
 }
 /* this is the table element  */
+
 table {
     border: 2px lightblue solid;
     margin: 15px;
 }
+/* we are using flex property to align content properly  */
 
 .registration-section {
     display: flex;
@@ -131,8 +142,10 @@ table {
     padding: 15px;
     background-color: antiquewhite;
 }
+
 /* this is the footer section */ 
 /* we have added various links in it which can be used in real time websites */
+
 .footer {
     display: flex;
     flex-direction: column;
@@ -172,9 +185,9 @@ h3 {
 a:active {
     text-transform: none;
     color: black;
-    color: #db8686;
 }
 
 .footer a {
     color: black;
+    margin: 15px;
 }
