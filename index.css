@@ -9,10 +9,13 @@
 }
 
 .main a {
+    width: auto;
+    height: auto;
     background-color: orange;
     border: 1px orange solid;
     border-radius: 50px;
     transition: all 2s ease-out;
+    color: blue;
 }
 
 .main a:hover {
