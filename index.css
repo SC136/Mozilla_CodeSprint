@@ -96,7 +96,7 @@
     background-color: antiquewhite;
 }
 
-.schedule-section h3 {
+.schedule-section h2 {
     margin-top: 25px;
 }
 
@@ -120,10 +120,12 @@ table {
 }
 .main-footer{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
 }
 .foot{
     font-weight: 500;
+    margin:25px;
 }
 .foot a:link, a:active{
     text-transform: none;
