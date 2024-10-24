@@ -23,9 +23,7 @@
     flex-direction: row;
 }
 
-.main a {
-    /* width: auto;
-    height: auto; */
+.reg {
     background-color: orange;
     border: 1px orange solid;
     border-radius: 50px;
