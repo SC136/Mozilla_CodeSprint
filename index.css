@@ -88,7 +88,7 @@
     box-shadow: 0 0 10px 2px black;
     padding: 25px;
 }
-
+/* this is our speakers image */
 .spkr img {
     border-radius: 50px;
     width: 200px;
@@ -112,7 +112,7 @@
 .schedule-section h3 {
     margin-top: 25px;
 }
-
+/* this is the table element  */
 table {
     border: 2px lightblue solid;
     margin: 15px;
@@ -155,7 +155,7 @@ h3 {
     padding: 12px 20px;
     font-size: 22px;
 }
-
+/* this is the main footer */
 .main-footer {
     display: flex;
     justify-content: space-evenly;
