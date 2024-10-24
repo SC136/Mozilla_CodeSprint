@@ -1,7 +1,7 @@
 .main {
     display: flex;
     align-items: center;
-    background-color: #ffcd71
+    background-color: #ffcd71;
     flex-direction: column;
 }
 
@@ -56,4 +56,11 @@
 
 table {
     border: 2px lightblue solid;
+}
+
+.registration-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
 }
