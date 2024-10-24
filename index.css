@@ -6,7 +6,11 @@
 }
 
 .main h1 {
-    font-size: large;
+    color: blue;
+}
+
+.main p {
+    margin: 15px;
 }
 
 .btns {
@@ -44,6 +48,10 @@
     border-radius: 50px;
     box-shadow: 2px 2px 2px 2px black;
     padding: 25px;
+}
+
+.spkr img {
+    border-radius: 50px;
 }
 
 table {
