@@ -6,12 +6,13 @@
 .main {
     display: flex;
     align-items: center;
-    background-color: #ffcd71;
+    background-color: #684619;
     flex-direction: column;
 }
 
 .main h1 {
-    color: blue;
+    color: green;
+    margin-top: 25px;
 }
 
 .main p {
@@ -21,6 +22,7 @@
 .btns {
     display: flex;
     flex-direction: row;
+    cursor:pointer;
 }
 
 .main a {
@@ -48,10 +50,17 @@
     box-shadow: 2px 2px 2px 2px black;
 }
 
+.reg:hover {
+    transform: translateY(-5px);
+    box-shadow: 2px 2px 2px 2px black;
+}
+
 .speaker-section {
     display: flex;
     flex-direction: column;
     background-color: rgb(219, 134, 134);
+    align-items: center;
+    align-content: center;
 }
 
 .spkrs {
@@ -64,7 +73,7 @@
     background-color: grey;
     margin: 20px;
     border-radius: 50px;
-    box-shadow: 0 0 2px 2px black;
+    box-shadow: 0 0 10px 2px black;
     padding: 25px;
 }
 
@@ -72,11 +81,15 @@
     border-radius: 50px;
     width: 200px;
 }
-
+.text{
+    text-align: center;
+    font-weight: ;
+}
 .schedule-section {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 table {
@@ -105,5 +118,7 @@ table {
 }
 .foot a:link, a:active{
     text-transform: none;
-    
+    color: burlywood;
+    background-color: black;
+
 }
