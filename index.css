@@ -1,7 +1,7 @@
 .main {
     display: flex;
     align-items: center;
-    background-image: url();
+    background-color: #ffcd71
     flex-direction: column;
 }
 
@@ -35,7 +35,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    /* background-color: darkgrey; */
+    background-color: rgb(219, 134, 134);
 }
 
 .spkr {
