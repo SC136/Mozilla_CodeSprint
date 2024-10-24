@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     background-image: url();
+    flex-direction: row;
 }
 
 .main h1 {
