@@ -1,11 +1,17 @@
 .main {
     display: flex;
     align-items: center;
-    
+    background-image: url();
 }
 
 .main h1 {
     font-size: large;
+}
+
+.main a {
+    background-color: orange;
+    border: 1px orange solid;
+    border-radius: 50px;
 }
 
 .speaker-section {
