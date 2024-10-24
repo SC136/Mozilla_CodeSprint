@@ -12,6 +12,12 @@
     background-color: orange;
     border: 1px orange solid;
     border-radius: 50px;
+    transition: all 2s ease-out;
+}
+
+.main a:hover {
+    transform: translateY(-5px);
+    box-shadow: 2px 2px 2px 2px black;
 }
 
 .speaker-section {
